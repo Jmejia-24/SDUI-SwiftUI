@@ -1,0 +1,50 @@
+[
+  {
+    "type": "vstack",
+    "alignment": "leading",
+    "spacing": 10,
+    "children": [
+      {
+        "type": "text",
+        "text": "Server-Driven UI",
+        "alignment": "leading"
+      },
+      {
+        "type": "button",
+        "title": "Show Alert",
+        "action": "showAlert",
+        "alignment": "center"
+      }
+    ]
+  },
+  {
+    "type": "hstack",
+    "alignment": "center",
+    "spacing": 5,
+    "children": [
+      {
+        "type": "image",
+        "url": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg",
+        "alignment": "top"
+      },
+      {
+        "type": "text",
+        "text": "This is an image with a description",
+        "alignment": "center"
+      }
+    ]
+  },
+  {
+    "type": "button",
+    "title": "Next",
+    "action": "navigate",
+    "alignment": "trailing"
+  },
+  {
+    "type": "textfield",
+    "id": "usernameField",
+    "placeholder": "Enter your username",
+    "text": "",
+    "alignment": "bottomLeading"
+  }
+]
